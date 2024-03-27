@@ -390,7 +390,7 @@ section {
 }
 
 .contact-icons i:hover {
-    color: var(--main-color);
+    color: yellow;
 }
 
 .contact-form form {
