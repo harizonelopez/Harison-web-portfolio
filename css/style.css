@@ -121,23 +121,23 @@ section {
     font-weight: 500;
 }
 
-.home -text h1{
+.home-text h1{
+    color: aqua;
     font-size: var(--big-font);
-    font-weight: 700;
-    color: var(--text-color);
+    font-weight: 500;
     line-height: 1.1;
     margin: 0 0 8px;
 }
 
-.home -text h3 {
-    color: var(--text-color);
+.home-text h3 {
+    color: rebeccapurple;
     margin: 0 0 35px;
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.1;
 }
 
-.home -text p {
+.home-text p {
     color: var(--second-color);
     font-size: var(--p-font);
     line-height: 1.8;
@@ -185,10 +185,10 @@ section {
     line-height: 1;
 }
 
-.about- h4 {
+.about-text h4 {
     font-size: 24px;
     font-weight: 600;
-    color: var(--text-color);
+    color: blueviolet;
     line-height: 1.7;
     margin: 15px 8 30px;
 }
@@ -298,13 +298,14 @@ section {
 }
 
 .layer h5 {
+    color: yellow;
     font: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p {
-    color: var(--main-color);
+    color: red;
     font-size: 1rem;
     line-height: 1.8;
 }
@@ -337,6 +338,13 @@ section {
     gap: 2.5rem;
 }
 
+.contact-text h1 {
+    margin: 18px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .contact-text h4 {
     color: var(--text-color);
     margin: 18px;
@@ -344,8 +352,13 @@ section {
     font-weight: 600;
 }
 
+.contact-text p {
+    align-items: center;
+}
+
 .contact-text h2 {
     font-size: var(--h2-font);
+    color: aqua;
     line-height: 1;
 }
 
@@ -379,7 +392,7 @@ section {
 .contact-icons i {
     height: 45px;
     width: 45px;
-    color: var(--text-color);
+    color: rgb(18, 192, 18);
     font-size: 22px;
     display: inline-block;
     align-items: center;
@@ -390,7 +403,7 @@ section {
 }
 
 .contact-icons i:hover {
-    color: yellow;
+    color: rgb(201, 19, 92);
 }
 
 .contact-form form {
@@ -428,28 +441,12 @@ section {
     cursor: pointer;
 }
 
-.end {
-    padding: 20px 15%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    background: var(--bg-color);
+footer {
+    color: rgb(22, 171, 76);
+    display: inline;
 }
 
-.last-text p {
-    color: var(--second-color);
-    font-size: 14px;
-}
 
-.top i {
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 15px;
-    color: var(--text-color);
-    background: var(--main-color);
-}
 
 @media (max-width: 1480px) {
     header {
@@ -536,4 +533,3 @@ section {
         top: 100%;
     }
 }
-
