@@ -90,7 +90,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url('D://Denno/DNI Media/Photoz directory/4D Media/DNI_walpapers/background.jpg');
+    background-image: url("../img/background.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -167,6 +167,7 @@ section {
 }
 
 .about {
+    background: powderblue;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -202,7 +203,7 @@ section {
 }
 
 .services {
-    background: powderblue;
+    background: aquamarine;
 }
 
 .main-text {
@@ -257,6 +258,10 @@ section {
 .box:hover {
     transform: translate(8px);
     cursor: pointer;
+}
+
+.portfolio {
+    background: gray;
 }
 
 .portfolio-content {
@@ -331,7 +336,7 @@ section {
 }
 
 .contact {
-    background: var(--second-bg-color);
+    background: gray;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -392,7 +397,7 @@ section {
 .contact-icons i {
     height: 45px;
     width: 45px;
-    color: rgb(18, 192, 18);
+    color: rgb(17, 223, 86);
     font-size: 22px;
     display: inline-block;
     align-items: center;
@@ -413,8 +418,8 @@ section {
 .contact-form form input, form textarea {
     width: 100%;
     padding: 14px;
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: pink;
+    color: indianred;
     border: none;
     outline: none;
     font-size: 15px;
@@ -442,7 +447,7 @@ section {
 }
 
 footer {
-    color: rgb(22, 171, 76);
+    color: rgb(17, 223, 86);
     display: inline;
 }
 
@@ -533,3 +538,4 @@ footer {
         top: 100%;
     }
 }
+
