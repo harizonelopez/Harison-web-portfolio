@@ -248,31 +248,30 @@
 			</div>
 
 		</div>
-
+	<!------The php function to enable send the data to my email------>
 		<div class="contact-form">
-			<form action="#home">
+			<form action="form.php" method="POST">
 				<input 
 					type="text" 
 					name="name"
-					placeholder="Your Name" required>
+					placeholder="Your name" required>
 				<input 
 					type="email"
 					name="email" 
-					placeholder="Your Email" required>
+					placeholder="Your email" required>
 				<input 
 					type="text" 
 					name="mobile_number"
-					placeholder="Your Mobile Number" required>
+					placeholder="Your mobile number" required>
 				<textarea
-					type="" 
 					name="message" 
 					cols="30" 
 					rows="5" 
 					placeholder="How may I help you...?" required></textarea>
-
+		
 				<input
 					type="submit" 
-					value="Send Message"
+					value="Send message"
 					class="submit" required>
 			</form>
 		</div>
